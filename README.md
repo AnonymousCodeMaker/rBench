@@ -1,8 +1,6 @@
 # rBench
 
-**rBench** is a toolkit containing several stress tests. It was originally designed to serve the thesis Eirene[^Eirene], which could stress a computer resource of a particular dimension as a way of interfering with other applications that might be occupying that resource.
-
-**rBench** was designed to as focus as possible on the target resource, which means that interference with one dimension will put as little stress as possible on the other dimensions. It includes tests for CPU, cache, memory, disk, network and other resource dimensions, covering the computer resources required by common applications.
+**rBench** is an interference profiling benchmark designed to characterize the interference and tolerance capabilities of applications across various resource dimensions. It targets specific resources (e.g., CPU functional units, cache, memory bandwidth) while minimizing interference with others, enabling isolated, dimension-specific profiling. By covering a broad range of resource dimensions, rBench facilitates accurate profiling of application interference characteristics. It is utilized in Eirene[^Eirene] to enable isolation-on-demand and optimize resource scheduling.
 
 &nbsp;
 
